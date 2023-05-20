@@ -1,0 +1,39 @@
+.assortiment{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: column; 
+}
+
+.buttonMobile{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    align-self: center;
+    background-color: black;
+}
+
+.buttonMobile a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: .05em;
+    line-height: 1.5em; 
+}
+
+.buttonMobile a:hover{
+color: #B7C4CF;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
